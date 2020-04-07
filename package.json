@@ -1,19 +1,19 @@
 {
-  "name": "simple-react-panel",
+  "name": "api-status-panel",
   "version": "1.0.0",
-  "description": "Simple React Panel",
+  "description": "API Status Panel",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": "github:grafana/simple-react-panel",
-  "author": "Grafana Labs <team@grafana.com> (https://grafana.com)",
+  "repository": "github:lokeshsuhas/apistatus",
+  "author": "Lokesh Ravichandru(https://grootan.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/grafana/simple-react-panel/issues",
-    "email": "plugins@grafana.com"
+    "url": "https://github.com/lokeshsuhas/apistatus/issues",
+    "email": "lokeshsuhas@gmail.com"
   },
   "devDependencies": {
     "@grafana/data": "next",
@@ -22,8 +22,5 @@
   },
   "resolutions": {
     "@babel/preset-env": "7.9.0"
-  },
-  "engines": {
-    "node": ">=12 <13"
   }
 }

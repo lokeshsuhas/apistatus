@@ -1,14 +1,14 @@
 {
   "type": "panel",
-  "name": "Simple Panel",
-  "id": "myorgid-simple-panel",
+  "name": "API Status Panel",
+  "id": "api-status-panel",
 
   "info": {
-    "description": "Simple React Panel",
+    "description": "API Status Panel",
     "author": {
-      "name": "Your Name"
+      "name": "Lokesh Ravichandru"
     },
-    "keywords": ["Simple"],
+    "keywords": ["API Status","Actuators","Spring boot"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"

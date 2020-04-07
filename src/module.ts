@@ -1,6 +1,6 @@
 import { PanelPlugin } from '@grafana/data';
-import { SimpleOptions, defaults } from './types';
-import { SimplePanel } from './SimplePanel';
-import { SimpleEditor } from './SimpleEditor';
+import { ApiStatusOptions, defaults } from './types';
+import { ApiStatusPanel } from './ApiStatusPanel';
+import { ApiStatusEditor } from './ApiStatusEditor';
 
-export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setDefaults(defaults).setEditor(SimpleEditor);
+export const plugin = new PanelPlugin<ApiStatusOptions>(ApiStatusPanel).setDefaults(defaults).setEditor(ApiStatusEditor);
